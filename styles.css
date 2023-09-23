@@ -1,15 +1,84 @@
 body {
   margin: 40px auto;
   max-width: 650px;
-  line-height: 1.6;
-  font-size: 18px;
-  background-color: #1A1A19;
-  color: #F9BE08;
+  background-color: #322653;
+  color: #FFD2D7;
   padding: 0 10px;
+}
+
+a {
+    color: #9288F8;
+    text-decoration: none;
+}
+
+p {
+    color: #FFD2D7;
+}
+
+.tiny-monospace{
+    font-size: 10px;
+}
+
+.color_1{
+    color: #451952;
+}
+
+.color_2{
+    color: #662549;
+}
+
+.color_3{
+    color: #AE445A;
+}
+
+.color_4{
+    color: #F39F5A;
+}
+
+.main-body{
+    line-height: 1.6;
+    font-size: 18px;
+    font-family: monospace;
 }
 
 h1,
 h2,
 h3 {
   line-height: 1.2;
+}
+
+.position-trbl-0 {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.col {
+  height: 100%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.col-inner {
+  height: 100%;
+  width: 100%;
+  padding: 0 30px;
+  overflow-y: scroll;
+  box-sizing: content-box;
+}
+
+.overflow-auto {
+  overflow: auto;
 }
